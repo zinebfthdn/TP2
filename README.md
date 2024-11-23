@@ -24,13 +24,11 @@ Ce projet consiste à développer une application pour la gestion des utilisateu
 <h2>Structure du Projet</h2>
 <p>Le projet suit une architecture modulaire avec les packages suivants :</p>
 
-<img src="/TP2/screens/1.png" alt="Structure du Projet" />
+<img src="TP2/Screens/1.png" alt="Structure du Projet" />
 
 <h3>1. Package <code>entities</code></h3>
 <ul>
     <li>Contient les entités <strong>User</strong> et <strong>Role</strong>, représentant les tables dans la base de données.</li>
-  
-    <img src="/screens/3.png" alt="Structure du Projet" />
 
     <li>Relation entre les entités :
         <ul>
@@ -38,7 +36,7 @@ Ce projet consiste à développer une application pour la gestion des utilisateu
         </ul>
     </li>
 </ul>
-
+<img src="TP2/Screens/3.png" alt="Structure du Projet" />
 <h3>2. Package <code>repositories</code></h3>
 <ul>
     <li>Contient les interfaces <strong>UserRepository</strong> et <strong>RoleRepository</strong>, héritant de <code>JpaRepository</code>.</li>
@@ -77,7 +75,7 @@ spring.h2.console.enabled=true
 </pre>
 <p>
 
-  <img src="/screens/2.png" alt="Structure du Projet" />
+  <img src="TP2/Screens/2.png" alt="Structure du Projet" />
 
 
 Vous pouvez accéder à la console H2 via <a href="http://localhost:8085/h2-console">http://localhost:8085/h2-console</a>.
