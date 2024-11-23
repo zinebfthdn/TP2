@@ -1,6 +1,6 @@
 <h1>ORM JPA Hibernate Spring Data</h1>
 
-<h3>Projet réalisé par Zineb Feth-Eddin</h3>
+<h3>Projet réalisé par Zineb Feth-Eddine</h3>
 
 ---
 
